@@ -19,9 +19,9 @@ Student Performance dataset from kaggle.
 
 ## Current Progress
 - [x] Project setup
-- [] Exploratory data analysis
-- [] Data preprocessing
-- [] Model training
+- [X] Exploratory data analysis
+- [X] Data preprocessing
+- [X] Model training
 - [] Model evaluation
 - [] Deployment
 
