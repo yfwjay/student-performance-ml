@@ -18,7 +18,8 @@ Example: Predicting if a student "Passed" or "Failed" (Binary) or predicting a s
     1. Confusion Matrix: The foundation for all classification metrics.
     2. Accuracy: Total correct predictions / Total cases (Can be misleading in imbalanced data).
     3. Precision: "Reliability" — Of all predicted positives, how many were actually right? (Low FP).
-    4. Recall: "The Truth Teller" — Of all actual positive cases, how many did we catch? (Low FN).      5. F1-Score: The harmonic mean of Precision and Recall (The "Referee").
+    4. Recall: "The Truth Teller" — Of all actual positive cases, how many did we catch? (Low FN).      
+    5. F1-Score: The harmonic mean of Precision and Recall (The "Referee").
     6. ROC-AUC: Measures the model's ability to distinguish between classes at various thresholds.
 
 ### B. Regression
