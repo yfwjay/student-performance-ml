@@ -30,9 +30,9 @@ Example: Predicting the specific numerical score of a student or the price of a 
 Core Models:
 
 ## Linear Regression: 
-Fits a straight line to the data.
-    1. Lasso (L1): Deletes less important features by setting their coefficients to zero.
-    2. Ridge (L2): Shrinks coefficients to reduce noise without deleting features.
+        Fits a straight line to the data.
+        1. Lasso (L1): Deletes less important features by setting their coefficients to zero.
+        2. Ridge (L2): Shrinks coefficients to reduce noise without deleting features.
 
 ## Evaluation Metrics:
         1. Mean Absolute Error (MAE): The average "distance" your prediction is from the truth.
@@ -41,7 +41,7 @@ Fits a straight line to the data.
 
 ## Technical Concepts & Workflow
 
-The Standard Workflow
+## The Standard Workflow
         1. Import: Bringing in libraries (Scikit-Learn).
         2. Train/Test Split: Splitting data to ensure we have a "Final Exam" (Test Set) the model hasn't seen.
         3. Scaling: Using StandardScaler to ensure features with large ranges (like income) don't overpower smaller ranges (like age). Critical for KNN.
