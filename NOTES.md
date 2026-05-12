@@ -29,11 +29,12 @@ Target variable is continuous or numerical.
 Example: Predicting the specific numerical score of a student or the price of a house.
 Core Models:
 
-Linear Regression: Fits a straight line to the data.
-        1. Lasso (L1): Deletes less important features by setting their coefficients to zero.
-        2. Ridge (L2): Shrinks coefficients to reduce noise without deleting features.
+## Linear Regression: 
+Fits a straight line to the data.
+    1. Lasso (L1): Deletes less important features by setting their coefficients to zero.
+    2. Ridge (L2): Shrinks coefficients to reduce noise without deleting features.
 
-Evaluation Metrics:
+## Evaluation Metrics:
         1. Mean Absolute Error (MAE): The average "distance" your prediction is from the truth.
         2. Mean Squared Error (MSE): Penalizes larger errors more heavily by squaring them.
         3. R-Squared ($R^2$): Tells you what percentage of the variance in the target is explained by the model.2. 
