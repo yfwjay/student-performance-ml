@@ -1,4 +1,4 @@
-# Supervised Learning: Comprehensive SummaryAim: 
+# Supervised Learning: Comprehensive Summary: 
 
 To predict the target values of unseen data based on patterns learned from historical features.1. The Two Pillars of Supervised Learning
 
