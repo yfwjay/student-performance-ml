@@ -1,4 +1,4 @@
-# Supervised Learning: Comprehensive SummaryAim: 
+# Supervised Learning: Comprehensive Summary: 
 
 To predict the target values of unseen data based on patterns learned from historical features.1. The Two Pillars of Supervised Learning
 
@@ -18,7 +18,8 @@ Example: Predicting if a student "Passed" or "Failed" (Binary) or predicting a s
     1. Confusion Matrix: The foundation for all classification metrics.
     2. Accuracy: Total correct predictions / Total cases (Can be misleading in imbalanced data).
     3. Precision: "Reliability" — Of all predicted positives, how many were actually right? (Low FP).
-    4. Recall: "The Truth Teller" — Of all actual positive cases, how many did we catch? (Low FN).      5. F1-Score: The harmonic mean of Precision and Recall (The "Referee").
+    4. Recall: "The Truth Teller" — Of all actual positive cases, how many did we catch? (Low FN).      
+    5. F1-Score: The harmonic mean of Precision and Recall (The "Referee").
     6. ROC-AUC: Measures the model's ability to distinguish between classes at various thresholds.
 
 ### B. Regression
@@ -28,18 +29,19 @@ Target variable is continuous or numerical.
 Example: Predicting the specific numerical score of a student or the price of a house.
 Core Models:
 
-Linear Regression: Fits a straight line to the data.
+## Linear Regression: 
+        Fits a straight line to the data.
         1. Lasso (L1): Deletes less important features by setting their coefficients to zero.
         2. Ridge (L2): Shrinks coefficients to reduce noise without deleting features.
 
-Evaluation Metrics:
+## Evaluation Metrics:
         1. Mean Absolute Error (MAE): The average "distance" your prediction is from the truth.
         2. Mean Squared Error (MSE): Penalizes larger errors more heavily by squaring them.
         3. R-Squared ($R^2$): Tells you what percentage of the variance in the target is explained by the model.2. 
 
 ## Technical Concepts & Workflow
 
-The Standard Workflow
+## The Standard Workflow
         1. Import: Bringing in libraries (Scikit-Learn).
         2. Train/Test Split: Splitting data to ensure we have a "Final Exam" (Test Set) the model hasn't seen.
         3. Scaling: Using StandardScaler to ensure features with large ranges (like income) don't overpower smaller ranges (like age). Critical for KNN.
