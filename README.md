@@ -22,8 +22,8 @@ Student Performance dataset from kaggle.
 - [X] Exploratory data analysis
 - [X] Data preprocessing
 - [X] Model training
-- [] Model evaluation
-- [] Deployment
+- [x] Model evaluation
+
 
 ## Learning Goals
 The repository is part of my applied machine learning journey while studying supervised learning with scikit-learn/
